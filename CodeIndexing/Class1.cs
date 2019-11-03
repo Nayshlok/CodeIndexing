@@ -4,5 +4,6 @@ namespace CodeIndexing
 {
     public class Class1
     {
+
     }
 }
