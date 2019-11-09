@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29424.173
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeIndexing", "CodeIndexing\CodeIndexing.csproj", "{3CB475EC-9684-493E-AA72-882A4A115526}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeIndexClient", "CodeIndexClient\CodeIndexClient.csproj", "{59D05AF0-E8ED-4DB1-8395-4E6A93A261A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeIndexClient", "CodeIndexClient\CodeIndexClient.csproj", "{59D05AF0-E8ED-4DB1-8395-4E6A93A261A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeIndexingTests", "CodeIndexingTests\CodeIndexingTests.csproj", "{8FD9602B-3686-456D-A07B-EDFF48EB6020}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{59D05AF0-E8ED-4DB1-8395-4E6A93A261A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59D05AF0-E8ED-4DB1-8395-4E6A93A261A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59D05AF0-E8ED-4DB1-8395-4E6A93A261A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FD9602B-3686-456D-A07B-EDFF48EB6020}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FD9602B-3686-456D-A07B-EDFF48EB6020}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FD9602B-3686-456D-A07B-EDFF48EB6020}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FD9602B-3686-456D-A07B-EDFF48EB6020}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
