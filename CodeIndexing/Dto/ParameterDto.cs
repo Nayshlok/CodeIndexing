@@ -9,7 +9,7 @@ namespace CodeIndexing.Dto
     {
         [Key]
         public int ParameterId { get; set; }
-        public ClassDto ParamterType { get; set; }
+        public string ParamterType { get; set; }
         public string ParameterName { get; set; }
         public MethodDto BelongsToMethod { get; set; }
     }
